@@ -1,0 +1,7 @@
+C:\Users\alumno\source\repos\Punto1\[IgnacioGonzalez]-Act1\bin\Debug\[IgnacioGonzalez]-Act1.exe.config
+C:\Users\alumno\source\repos\Punto1\[IgnacioGonzalez]-Act1\bin\Debug\[IgnacioGonzalez]-Act1.exe
+C:\Users\alumno\source\repos\Punto1\[IgnacioGonzalez]-Act1\bin\Debug\[IgnacioGonzalez]-Act1.pdb
+C:\Users\alumno\source\repos\Punto1\[IgnacioGonzalez]-Act1\obj\Debug\Punto1.csproj.AssemblyReference.cache
+C:\Users\alumno\source\repos\Punto1\[IgnacioGonzalez]-Act1\obj\Debug\Punto1.csproj.CoreCompileInputs.cache
+C:\Users\alumno\source\repos\Punto1\[IgnacioGonzalez]-Act1\obj\Debug\[IgnacioGonzalez]-Act1.exe
+C:\Users\alumno\source\repos\Punto1\[IgnacioGonzalez]-Act1\obj\Debug\[IgnacioGonzalez]-Act1.pdb
