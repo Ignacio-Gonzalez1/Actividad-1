@@ -1,25 +1,25 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\patif\\source\\repos\\[IgnacioGonzalez]-Act3\\",
+  "WorkspaceRootPath": "C:\\Users\\patif\\OneDrive\\Escritorio\\poco\\Nueva carpeta (2)\\Actividad-1\\[IgnacioGonzalez]-Act3\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{00A65CF4-51CB-41B0-A53F-02E009535DD6}|Punto5\\Punto5.csproj|c:\\users\\patif\\source\\repos\\[ignaciogonzalez]-act3\\punto5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{00A65CF4-51CB-41B0-A53F-02E009535DD6}|Punto5\\Punto5.csproj|solutionrelative:punto5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{10D7315F-3264-45BA-9E1F-35504D4382E2}|Punto4\\Punto4.csproj|c:\\users\\patif\\source\\repos\\[ignaciogonzalez]-act3\\punto4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{10D7315F-3264-45BA-9E1F-35504D4382E2}|Punto4\\Punto4.csproj|solutionrelative:punto4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{23F088DA-72AC-44C7-9A9E-395DB4ED7B97}|Punto3\\Punto3.csproj|c:\\users\\patif\\source\\repos\\[ignaciogonzalez]-act3\\punto3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{23F088DA-72AC-44C7-9A9E-395DB4ED7B97}|Punto3\\Punto3.csproj|solutionrelative:punto3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8361E3E2-1AB5-4EB3-881B-6FA7E1D5F5CB}|Punto2\\Punto2.csproj|c:\\users\\patif\\source\\repos\\[ignaciogonzalez]-act3\\punto2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8361E3E2-1AB5-4EB3-881B-6FA7E1D5F5CB}|Punto2\\Punto2.csproj|C:\\Users\\patif\\OneDrive\\Escritorio\\poco\\Nueva carpeta (2)\\Actividad-1\\[IgnacioGonzalez]-Act3\\punto2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8361E3E2-1AB5-4EB3-881B-6FA7E1D5F5CB}|Punto2\\Punto2.csproj|solutionrelative:punto2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E129FC59-882C-4652-8F50-359CF1B39FE4}|Punto1\\Punto1.csproj|c:\\users\\patif\\source\\repos\\[ignaciogonzalez]-act3\\punto1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{23F088DA-72AC-44C7-9A9E-395DB4ED7B97}|Punto3\\Punto3.csproj|C:\\Users\\patif\\OneDrive\\Escritorio\\poco\\Nueva carpeta (2)\\Actividad-1\\[IgnacioGonzalez]-Act3\\punto3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23F088DA-72AC-44C7-9A9E-395DB4ED7B97}|Punto3\\Punto3.csproj|solutionrelative:punto3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10D7315F-3264-45BA-9E1F-35504D4382E2}|Punto4\\Punto4.csproj|C:\\Users\\patif\\OneDrive\\Escritorio\\poco\\Nueva carpeta (2)\\Actividad-1\\[IgnacioGonzalez]-Act3\\punto4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10D7315F-3264-45BA-9E1F-35504D4382E2}|Punto4\\Punto4.csproj|solutionrelative:punto4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00A65CF4-51CB-41B0-A53F-02E009535DD6}|Punto5\\Punto5.csproj|c:\\users\\patif\\onedrive\\escritorio\\poco\\nueva carpeta (2)\\actividad-1\\[ignaciogonzalez]-act3\\punto5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00A65CF4-51CB-41B0-A53F-02E009535DD6}|Punto5\\Punto5.csproj|solutionrelative:punto5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E129FC59-882C-4652-8F50-359CF1B39FE4}|Punto1\\Punto1.csproj|C:\\Users\\patif\\OneDrive\\Escritorio\\poco\\Nueva carpeta (2)\\Actividad-1\\[IgnacioGonzalez]-Act3\\punto1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E129FC59-882C-4652-8F50-359CF1B39FE4}|Punto1\\Punto1.csproj|solutionrelative:punto1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -30,41 +30,41 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\patif\\source\\repos\\[IgnacioGonzalez]-Act3\\Punto5\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\patif\\OneDrive\\Escritorio\\poco\\Nueva carpeta (2)\\Actividad-1\\[IgnacioGonzalez]-Act3\\Punto5\\Program.cs",
               "RelativeDocumentMoniker": "Punto5\\Program.cs",
-              "ToolTip": "C:\\Users\\patif\\source\\repos\\[IgnacioGonzalez]-Act3\\Punto5\\Program.cs",
+              "ToolTip": "C:\\Users\\patif\\OneDrive\\Escritorio\\poco\\Nueva carpeta (2)\\Actividad-1\\[IgnacioGonzalez]-Act3\\Punto5\\Program.cs",
               "RelativeToolTip": "Punto5\\Program.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAYwB4AAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwA0AAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-26T06:56:51.636Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\patif\\source\\repos\\[IgnacioGonzalez]-Act3\\Punto4\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\patif\\OneDrive\\Escritorio\\poco\\Nueva carpeta (2)\\Actividad-1\\[IgnacioGonzalez]-Act3\\Punto4\\Program.cs",
               "RelativeDocumentMoniker": "Punto4\\Program.cs",
-              "ToolTip": "C:\\Users\\patif\\source\\repos\\[IgnacioGonzalez]-Act3\\Punto4\\Program.cs",
+              "ToolTip": "C:\\Users\\patif\\OneDrive\\Escritorio\\poco\\Nueva carpeta (2)\\Actividad-1\\[IgnacioGonzalez]-Act3\\Punto4\\Program.cs",
               "RelativeToolTip": "Punto4\\Program.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAzwBYAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBYAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-26T06:50:34.654Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\patif\\source\\repos\\[IgnacioGonzalez]-Act3\\Punto3\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\patif\\OneDrive\\Escritorio\\poco\\Nueva carpeta (2)\\Actividad-1\\[IgnacioGonzalez]-Act3\\Punto3\\Program.cs",
               "RelativeDocumentMoniker": "Punto3\\Program.cs",
-              "ToolTip": "C:\\Users\\patif\\source\\repos\\[IgnacioGonzalez]-Act3\\Punto3\\Program.cs",
+              "ToolTip": "C:\\Users\\patif\\OneDrive\\Escritorio\\poco\\Nueva carpeta (2)\\Actividad-1\\[IgnacioGonzalez]-Act3\\Punto3\\Program.cs",
               "RelativeToolTip": "Punto3\\Program.cs",
               "ViewState": "AgIAAA4AAAAAAAAAAAAYwBoAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -73,13 +73,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\patif\\source\\repos\\[IgnacioGonzalez]-Act3\\Punto2\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\patif\\OneDrive\\Escritorio\\poco\\Nueva carpeta (2)\\Actividad-1\\[IgnacioGonzalez]-Act3\\Punto2\\Program.cs",
               "RelativeDocumentMoniker": "Punto2\\Program.cs",
-              "ToolTip": "C:\\Users\\patif\\source\\repos\\[IgnacioGonzalez]-Act3\\Punto2\\Program.cs",
+              "ToolTip": "C:\\Users\\patif\\OneDrive\\Escritorio\\poco\\Nueva carpeta (2)\\Actividad-1\\[IgnacioGonzalez]-Act3\\Punto2\\Program.cs",
               "RelativeToolTip": "Punto2\\Program.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAzwBoAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwB8AAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-26T06:29:44.214Z",
               "EditorCaption": ""
@@ -88,14 +88,13 @@
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\patif\\source\\repos\\[IgnacioGonzalez]-Act3\\Punto1\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\patif\\OneDrive\\Escritorio\\poco\\Nueva carpeta (2)\\Actividad-1\\[IgnacioGonzalez]-Act3\\Punto1\\Program.cs",
               "RelativeDocumentMoniker": "Punto1\\Program.cs",
-              "ToolTip": "C:\\Users\\patif\\source\\repos\\[IgnacioGonzalez]-Act3\\Punto1\\Program.cs",
+              "ToolTip": "C:\\Users\\patif\\OneDrive\\Escritorio\\poco\\Nueva carpeta (2)\\Actividad-1\\[IgnacioGonzalez]-Act3\\Punto1\\Program.cs",
               "RelativeToolTip": "Punto1\\Program.cs",
               "ViewState": "AgIAABEAAAAAAAAAAADwvxwAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-26T06:14:23.812Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-26T06:14:23.812Z"
             }
           ]
         }

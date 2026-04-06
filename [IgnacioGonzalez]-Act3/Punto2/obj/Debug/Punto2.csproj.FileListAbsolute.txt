@@ -5,3 +5,10 @@ C:\Users\patif\source\repos\[IgnacioGonzalez]-Act3\Punto2\obj\Debug\Punto2.cspro
 C:\Users\patif\source\repos\[IgnacioGonzalez]-Act3\Punto2\obj\Debug\Punto2.csproj.CoreCompileInputs.cache
 C:\Users\patif\source\repos\[IgnacioGonzalez]-Act3\Punto2\obj\Debug\Punto2.exe
 C:\Users\patif\source\repos\[IgnacioGonzalez]-Act3\Punto2\obj\Debug\Punto2.pdb
+C:\Users\patif\OneDrive\Escritorio\poco\Nueva carpeta (2)\Actividad-1\[IgnacioGonzalez]-Act3\Punto2\bin\Debug\Punto2.exe.config
+C:\Users\patif\OneDrive\Escritorio\poco\Nueva carpeta (2)\Actividad-1\[IgnacioGonzalez]-Act3\Punto2\bin\Debug\Punto2.exe
+C:\Users\patif\OneDrive\Escritorio\poco\Nueva carpeta (2)\Actividad-1\[IgnacioGonzalez]-Act3\Punto2\bin\Debug\Punto2.pdb
+C:\Users\patif\OneDrive\Escritorio\poco\Nueva carpeta (2)\Actividad-1\[IgnacioGonzalez]-Act3\Punto2\obj\Debug\Punto2.csproj.AssemblyReference.cache
+C:\Users\patif\OneDrive\Escritorio\poco\Nueva carpeta (2)\Actividad-1\[IgnacioGonzalez]-Act3\Punto2\obj\Debug\Punto2.csproj.CoreCompileInputs.cache
+C:\Users\patif\OneDrive\Escritorio\poco\Nueva carpeta (2)\Actividad-1\[IgnacioGonzalez]-Act3\Punto2\obj\Debug\Punto2.exe
+C:\Users\patif\OneDrive\Escritorio\poco\Nueva carpeta (2)\Actividad-1\[IgnacioGonzalez]-Act3\Punto2\obj\Debug\Punto2.pdb
