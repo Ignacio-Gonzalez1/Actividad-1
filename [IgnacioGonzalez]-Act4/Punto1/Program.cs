@@ -19,16 +19,20 @@ namespace Punto1
             */
             int cantidadEmpleados_100_300, cantidadEmpleados_300_500, sueldo, sueldosEmpleados, corte;
             string linea;
-            corte=5;
+            corte=0;
             sueldo=0;
             cantidadEmpleados_100_300 = 0;
             cantidadEmpleados_300_500 = 0;
             sueldosEmpleados = 0;
 
+            Console.WriteLine("Ingresa la cantidad de Empleados que vas a tomar: ");
+            linea = Console.ReadLine();
+            corte = int.Parse(linea);
 
             while (corte != 0)
             {
-                Console.WriteLine("Ingresa 5 salarios entre 100 hasta 500: ");
+
+                Console.WriteLine("Ingresa salarios entre 100 hasta 500: ");
                 linea = Console.ReadLine();
                 sueldo = int.Parse(linea);
                 if (sueldo < 100 || sueldo > 500)
