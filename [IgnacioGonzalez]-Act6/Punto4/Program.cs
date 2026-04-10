@@ -6,10 +6,9 @@ using System.Threading.Tasks;
 
 namespace Punto4
 {
-    internal class Program
+    internal class Operaciones
     {
-        class Operaciones
-        {
+        
             /*  Implementar la clase operaciones. Se deben cargar dos valores enteros,
                 calcular su suma, resta, multiplicación y división, cada una en un método,
                 imprimir dichos resultados.
@@ -63,6 +62,6 @@ namespace Punto4
                 operaciones1.MostrarDatos();
                 Console.ReadKey();
             }
-        }
+        
     }
 }

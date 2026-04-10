@@ -6,10 +6,9 @@ using System.Threading.Tasks;
 
 namespace Punto3
 {
-    internal class Program
+    internal class Empleado
     {
-        class Empleado
-        {
+        
             /* Confeccionar una clase que represente un empleado. Definir como atributos su
                 nombre y su sueldo. Confeccionar los métodos para la carga, otro para imprimir
                 sus datos y por último uno que imprima un mensaje si debe pagar impuestos
@@ -49,6 +48,6 @@ namespace Punto3
                 Per1.Impuestos();
                 Console.ReadKey();
             }
-        }
+        
     }
 }

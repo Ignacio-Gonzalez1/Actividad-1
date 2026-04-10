@@ -7,10 +7,9 @@ using System.Threading.Tasks;
 
 namespace Punto1
 {
-    internal class Program
+    internal class Plano
     {
-        class Plano
-        {
+        
             /*  Desarrollar una clase que represente un punto en el plano y tenga los
                 siguientes métodos: cargar los valores de x e y, imprimir en que cuadrante se
                 encuentra dicho punto (concepto matemático, primer cuadrante si x e y son
@@ -61,6 +60,6 @@ namespace Punto1
                 Plano1.CuadranteUbicado();
                 Console.ReadKey();
             }
-        }
+        
     }
 }
