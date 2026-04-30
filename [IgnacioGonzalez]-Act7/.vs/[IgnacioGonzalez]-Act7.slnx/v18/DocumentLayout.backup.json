@@ -3,11 +3,11 @@
   "WorkspaceRootPath": "C:\\Users\\alumno\\Downloads\\notas\\Actividad-1\\[IgnacioGonzalez]-Act7\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{51B934FE-EDFB-47A2-AC32-DA4851EFFA02}|Punto4\\Punto4.csproj|C:\\Users\\alumno\\Downloads\\notas\\Actividad-1\\[IgnacioGonzalez]-Act7\\punto4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{51B934FE-EDFB-47A2-AC32-DA4851EFFA02}|Punto4\\Punto4.csproj|c:\\users\\alumno\\downloads\\notas\\actividad-1\\[ignaciogonzalez]-act7\\punto4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{51B934FE-EDFB-47A2-AC32-DA4851EFFA02}|Punto4\\Punto4.csproj|solutionrelative:punto4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C17F5DC4-8C86-4E36-A9E6-AEFEACD3A8B5}|Punto3\\Punto3.csproj|c:\\users\\alumno\\downloads\\notas\\actividad-1\\[ignaciogonzalez]-act7\\punto3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C17F5DC4-8C86-4E36-A9E6-AEFEACD3A8B5}|Punto3\\Punto3.csproj|C:\\Users\\alumno\\Downloads\\notas\\Actividad-1\\[IgnacioGonzalez]-Act7\\punto3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C17F5DC4-8C86-4E36-A9E6-AEFEACD3A8B5}|Punto3\\Punto3.csproj|solutionrelative:punto3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -36,7 +36,7 @@
               "RelativeDocumentMoniker": "Punto4\\Program.cs",
               "ToolTip": "C:\\Users\\alumno\\Downloads\\notas\\Actividad-1\\[IgnacioGonzalez]-Act7\\Punto4\\Program.cs",
               "RelativeToolTip": "Punto4\\Program.cs",
-              "ViewState": "AgIAAEQAAAAAAAAAAAAIwB4AAAA7AAAAAAAAAA==",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAowB4AAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-10T06:12:30.128Z",
               "EditorCaption": ""
@@ -64,8 +64,7 @@
               "RelativeToolTip": "Punto2\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-10T06:11:53.492Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-10T06:11:53.492Z"
             },
             {
               "$type": "Document",
@@ -77,8 +76,7 @@
               "RelativeToolTip": "Punto1\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-10T04:21:02.764Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-10T04:21:02.764Z"
             }
           ]
         }
