@@ -4,20 +4,21 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Punto2
+namespace Punto3
 {
-    internal class Programa
+    internal class Matriz
     {
-        /*  Crear una matriz de n * m filas (cargar n y m por teclado) Intercambiar la
-            primer fila con la segunda. Imprimir luego la matriz.
+        /*  Crear una matriz de n * m filas (cargar n y m por teclado) Imprimir los
+            cuatro valores que se encuentran en los vértices de la misma (mat[0][0]
+            etc.)
         */
-        private int[,] matriz; 
+        private int[,] Matriz1;
+        private int[] Vertices;
         private int m, n;
-
         public void cargarMyN()
         {
             m = 0;
-            n= 0;
+            n = 0;
             string linea;
             int corte = 0;
             //puse un Do while ya que si el trabajo pide que se intercambie la primera fila con la segunda me hace pensar que es nesesario que haya
@@ -27,14 +28,14 @@ namespace Punto2
 
                 Console.WriteLine("Cargar cuantas Filas quieres crear: ");
                 linea = Console.ReadLine();
-                n=int.Parse(linea);
+                n = int.Parse(linea);
                 if (n >= 2)
                 {
                     break;
                 }
 
             } while (corte != 1);
-            
+
 
             Console.WriteLine("Cargar cuantas Columnas quieres crear: ");
             linea = Console.ReadLine();
@@ -43,52 +44,46 @@ namespace Punto2
         }
         public void cargardatos()
         {
-            matriz = new int[n, m];
-            for(int i = 0; i < matriz.GetLength(0); i++)
+            Matriz1 = new int[n, m];
+            for (int i = 0; i < Matriz1.GetLength(0); i++)
             {
                 Console.WriteLine("Fila: " + (i + 1));
-                for (int j = 0; j < matriz.GetLength(1); j++)
+                for (int j = 0; j < Matriz1.GetLength(1); j++)
                 {
                     Console.WriteLine("Ingresar los datos: ");
                     string linea;
                     linea = Console.ReadLine();
-                    matriz[i, j] = int.Parse(linea);
+                    Matriz1[i, j] = int.Parse(linea);
                 }
             }
         }
-        public void cambiarDatos()
+        public void Vertices1al4()
         {
-            for (int g = 0; g < 1; g++)
-            {
-                for(int h = 0; h < matriz.GetLength(1); h++)
-                {
-                    int Aux;
-                    Aux = matriz[g+1, h];
-                    matriz[g + 1, h] = matriz[g, h];
-                    matriz[g, h]=Aux;
-                }
-            }
+            Vertices=new int[4];
+            Vertices[0] = Matriz1[0,0];
+            Vertices[1] = Matriz1[0, Matriz1.GetLength(1)-1];
+            Vertices[2] = Matriz1[Matriz1.GetLength(0) - 1, 0];
+            Vertices[3] = Matriz1[Matriz1.GetLength(0) - 1, Matriz1.GetLength(1) - 1];
         }
-        public void imprimirTodo()
+        public void ImprimirTodo()
         {
-            Console.WriteLine("La Matriz total es:");
-            for (int f = 0; f < matriz.GetLength(0); f++)
+            Console.WriteLine("Las Vertices de esa Matriz son: ");
+            for (int i = 0;i < 4; i++)
             {
-                Console.WriteLine("Fila: " + (f + 1));
-                for (int ñ = 0; ñ < matriz.GetLength(1); ñ++)
-                {
-                    Console.WriteLine(matriz[f, ñ] + " ");
-                }
-                Console.WriteLine();
+                Console.WriteLine(Vertices[i]);
             }
         }
+
+
+
+
         static void Main(string[] args)
         {
-            Programa per1= new Programa();
+            Matriz per1 = new Matriz();
             per1.cargarMyN();
             per1.cargardatos();
-            per1.cambiarDatos();
-            per1.imprimirTodo();
+            per1.Vertices1al4();
+            per1.ImprimirTodo();
             Console.ReadKey();
         }
     }
