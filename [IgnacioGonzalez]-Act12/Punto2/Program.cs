@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Punto2
 {
@@ -25,7 +21,7 @@ namespace Punto2
         private int[][] cine;
         private int[] Menores;
         private double promedio;
-        public void Acientos()
+        public void Asientos()
         {
             cine = new int[4][];
             cine[0] = new int[10];
@@ -38,24 +34,24 @@ namespace Punto2
         {
             for (int i = 0; i < cine.Length; i++)
             {
-                for(int j = 0; j < cine[i].Length; j++)
+                for (int j = 0; j < cine[i].Length; j++)
                 {
-                    Console.WriteLine("Poner la edad del Espectador de la sala: "+(i+1)+"  del aciento: "+j);
+                    Console.WriteLine("Poner la edad del Espectador de la sala: " + (i + 1) + "  del asiento: " + j);
                     string linea;
                     linea = Console.ReadLine();
-                    cine[i][j]=int.Parse(linea);
+                    cine[i][j] = int.Parse(linea);
                 }
             }
         }
 
         public void ImprimirTodo()
         {
-            for(int i = 0;i < cine.Length; i++)
+            for (int i = 0; i < cine.Length; i++)
             {
-                Console.WriteLine("La sala:"+ (i+1));
-                for(int j=0; j < cine[i].Length; j++)
+                Console.WriteLine("La sala:" + (i + 1));
+                for (int j = 0; j < cine[i].Length; j++)
                 {
-                    Console.WriteLine("  Aciento: "+j+" Edad:"+ cine[i][j]);
+                    Console.WriteLine("  Asiento: " + j + " Edad:" + cine[i][j]);
                 }
                 Console.WriteLine();
             }
@@ -69,14 +65,14 @@ namespace Punto2
                 int f = 0;
                 for (int j = 0; j < cine[i].Length; j++)
                 {
-                    if (18 > cine[i][j])
+                    if (18 > cine[i][j] && cine[i][j]>0)
                     {
                         f++;
                     }
                 }
-                Menores[i]= f;
+                Menores[i] = f;
             }
-            for (int i = 0;i<Menores.Length ; i++)
+            for (int i = 0; i < Menores.Length; i++)
             {
                 Console.WriteLine("Cuantos Menores hay en la sala:" + (i + 1) + " es: " + Menores[i]);
             }
@@ -84,23 +80,27 @@ namespace Punto2
         public void PromedioEdadSalas()
         {
             int total = 0;
-            for(int i = 0;i<cine.Length ; i++)
+            for (int i = 0; i < cine.Length; i++)
             {
-                for(int j = 0;j < cine[i].Length ; j++)
+                for (int j = 0; j < cine[i].Length; j++)
                 {
-                    total= total+cine[i][j];
+                    if (cine[i][j] > 0)
+                    {
+                        total = total + cine[i][j];
+                    }
+                    
                 }
             }
             promedio = (double)total / 45;
-            Console.WriteLine("La edad Promedio del complejo es: "+ promedio);
+            Console.WriteLine("La edad Promedio del complejo es: " + promedio);
         }
 
 
 
         static void Main(string[] args)
         {
-            GestionCine Per1=new GestionCine();
-            Per1.Acientos();
+            GestionCine Per1 = new GestionCine();
+            Per1.Asientos();
             Per1.Venta_de_Entradas();
             Per1.ImprimirTodo();
             Per1.MenoresEnSalas();
