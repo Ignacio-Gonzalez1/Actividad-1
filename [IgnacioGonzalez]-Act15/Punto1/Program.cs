@@ -64,6 +64,7 @@ namespace Punto1
     class SalaMonitoreo
     {
         private Paciente[] PacienteTotal;
+        private double[] PromedioPulsaciones;
         public SalaMonitoreo()
         {
             PacienteTotal= new Paciente[3];
@@ -73,10 +74,74 @@ namespace Punto1
             }
         }
 
+        public void ImprimirGrilla() 
+        { 
+            for (int i = 0; i < PacienteTotal.Length; i++) 
+            {   
+                Console.WriteLine("Paciente " + (i + 1)); 
+                Console.WriteLine("       mañana   mediodía   tarde  noche "); 
+                for (int j = 0; j < PacienteTotal[i].retomarRitmoCardiaco().GetLength(0); j++) 
+                { 
+                    Console.Write("Dia: " + (j + 1)); 
+                    for (int f = 0; f < PacienteTotal[i].retomarRitmoCardiaco().GetLength(1); f++) 
+                    { 
+                        Console.Write(" |" + PacienteTotal[i].retomarRitmoCardiaco()[j, f] + "|"); 
+                    } 
+                    Console.WriteLine(); } Console.WriteLine(); 
+            } 
+        }
+
+        public void SacarPromedioPulsaciones() 
+        { 
+            PromedioPulsaciones = new double[3]; 
+            for (int i = 0; i < PacienteTotal.Length; i++) 
+            { 
+                int total = 0; for (int j = 0; j < PacienteTotal[i].retomarRitmoCardiaco().GetLength(0); j++) 
+                { 
+                    for (int f = 0; f < PacienteTotal[i].retomarRitmoCardiaco().GetLength(1); f++) 
+                    { 
+                        total = total + PacienteTotal[i].retomarRitmoCardiaco()[j, f]; 
+                    } 
+                } 
+                PromedioPulsaciones[i] = (double)total / 12; 
+            } 
+            for (int i = 0; i < PacienteTotal.Length; i++) 
+            { 
+                Console.WriteLine("La Pulsacion promedio del Paciente " + PacienteTotal[i].retomarNombre() + " es: " + PromedioPulsaciones[i]); 
+            } 
+        }
+        public void TuvoTaquicardia() 
+        { 
+            for (int i = 0; i < PacienteTotal.Length; i++) 
+            { 
+                int l = 0; 
+                Console.WriteLine("El Paciente " + PacienteTotal[i].retomarNombre()); 
+                for (int j = 0; j < PacienteTotal[i].retomarRitmoCardiaco().GetLength(0); j++) 
+                { 
+                    for (int f = 0; f < PacienteTotal[i].retomarRitmoCardiaco().GetLength(1); f++) 
+                    { 
+                        if (PacienteTotal[i].retomarRitmoCardiaco()[j, f] > 120) 
+                        { 
+                            Console.WriteLine(PacienteTotal[i].retomarRitmoCardiaco()[j, f]); l++; 
+                        } 
+                    } 
+                } 
+                if (l == 0) 
+                { 
+                    Console.WriteLine("No sufrio Taquicardia Severa"); 
+                } 
+            } 
+        }
+
 
 
         static void Main(string[] args)
         {
+            SalaMonitoreo sala1 = new SalaMonitoreo(); 
+            sala1.ImprimirGrilla(); 
+            sala1.SacarPromedioPulsaciones(); 
+            sala1.TuvoTaquicardia(); 
+            Console.ReadKey();
         }
     }
 }
