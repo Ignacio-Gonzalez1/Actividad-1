@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Punto3;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -18,15 +19,6 @@ namespace Punto3
         */
         protected string marca;
         protected double velocidadMaxima;
-        public Vehículo()
-        {
-            Console.WriteLine("Poner la Marca del Vehiculo. ");
-            marca = Console.ReadLine();
-            Console.WriteLine("Poner la Velocidad Maxima de auto");
-            string linea;
-            linea = Console.ReadLine();
-            velocidadMaxima= double.Parse(linea);
-        }
         public string Marca
         {
             set
@@ -52,13 +44,20 @@ namespace Punto3
     }
     class Auto : Vehículo
     {
-        protected int cantidadPuertas;
+        public int cantidadPuertas;
+        public Vehículo base1;
         public Auto()
         {
-            Console.WriteLine("La cantidad de Puertas que tiene el auto: ");
+            base1 = new Vehículo();
             string linea;
+            Console.WriteLine("Poner la marca que tiene el Auto: ");
+            base1.Marca = Console.ReadLine();
+            Console.WriteLine("La VelocidadMaxima es del Auto: ");
             linea = Console.ReadLine();
-            cantidadPuertas=int.Parse(linea);
+            base1.VelocidadMaxima = double.Parse(linea);
+            Console.WriteLine("La cantidad de Puertas que tiene el Auto: ");
+            linea = Console.ReadLine();
+            cantidadPuertas = int.Parse(linea);
         }
         public int CantidadPuertas
         {
@@ -74,20 +73,46 @@ namespace Punto3
     }
     class Moto : Vehículo
     {
-        protected int cilindrada;
+        public int cilindrada;
+        public Vehículo base2;
+
         public Moto()
         {
-            Console.WriteLine("Poner la cantidad de Cilindradra: ");
+            base2= new Vehículo();
             string linea;
+            Console.WriteLine("Poner la marca que tiene el Moto: ");
+            base2.Marca = Console.ReadLine();
+            Console.WriteLine("La VelocidadMaxima es del Moto: ");
             linea = Console.ReadLine();
-            cilindrada=int.Parse(linea);
+            base2.VelocidadMaxima = double.Parse(linea);
+            Console.WriteLine("Poner la cantidad de Cilindradra: ");
+            linea = Console.ReadLine();
+            cilindrada = int.Parse(linea);
         }
-
+        public int Cilindrada
+        {
+            set
+            {
+                cilindrada = value;
+            }
+            get
+            {
+                return cilindrada;
+            }
+        }
     }
+}
+    
     class Prueba
     {
         static void Main(string[] args)
         {
+        Moto moto1 = new Moto();
+        Auto auto1 = new Auto();
+        Console.WriteLine("Datos del Auto: ");
+        Console.WriteLine("La Marca del Auto es " + auto1.base1.Marca + "  La Velocidad maxima del Auto es: " + auto1.base1.VelocidadMaxima + "  la cantidad de puertas del Auto es " + auto1.CantidadPuertas);
+        Console.WriteLine("Datos de la Moto: ");
+        Console.WriteLine("La Marca de la Moto es "+moto1.base2.Marca+"  La Velocidad maxima de la Moto es: "+moto1.base2.VelocidadMaxima+"  El cilindraje de la Moto es "+moto1.Cilindrada);
+        Console.ReadKey();
         }
     }
-}
