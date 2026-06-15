@@ -30,7 +30,7 @@ namespace Punto4
                     2.  Un método que muestre un reporte detallado con los tiempos de operación
                         de cada robot fase por fase.
                     3.  Un método que calcule el promedio general de tiempo por tarea de cada
-                        robot y declare al &quot;Robot más Eficiente&quot; (aquel que registre el promedio de
+                        robot y declare al "Robot más Eficiente"; (aquel que registre el promedio de
                         tiempo por operación más bajo de la planta).
         */
         private string ModeloRobot;
@@ -102,18 +102,39 @@ namespace Punto4
         }
         public void sacarELPromedio()
         {
-            promedio = new float [3];
+            promedio = new float[3];
             for(int i = 0; i<totalRobotEnsamblador.Length; i++)
             {
-                int total = 0;
+                float total = 0;
+                int g =0;
                 for (int j = 0; j < totalRobotEnsamblador[i].retornarTiemposOperacion().Length; j++)
                 {
                     for (int k = 0; k < totalRobotEnsamblador[i].retornarTiemposOperacion()[j].Length; k++)
                     {
-
+                        total = total + totalRobotEnsamblador[i].retornarTiemposOperacion()[j][k];
+                        g++;
                     }
                 }
-                promedio[i]=total /(j * k)
+                promedio[i] = (float)total / g;
+            }
+            float menor = promedio[0];
+            int ñ=0;
+            Console.WriteLine("Robot más Eficiente es: ");
+            for (int i = 0;i< promedio.Length ; i++)
+            {
+                if (menor > promedio[i])
+                {
+                    menor=promedio[i];
+                    ñ = i;
+                }
+            }
+            if (menor == promedio[0])
+            {
+                Console.WriteLine("Robot: " + totalRobotEnsamblador[0].retornarModeloRobot() +" Con un tiempo promedio de: " + promedio[0]);
+            }
+            else
+            {
+                Console.WriteLine("Robot: " + totalRobotEnsamblador[ñ].retornarModeloRobot() + " Con un tiempo promedio de: " + menor);
             }
         }
 
@@ -123,6 +144,8 @@ namespace Punto4
         {
             PlantaIndustrial planta1 = new PlantaIndustrial();
             planta1.MostrarTiempos();
+            planta1.sacarELPromedio();
+            Console.ReadKey();
         }
     }
 }
