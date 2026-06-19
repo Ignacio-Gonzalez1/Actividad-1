@@ -26,36 +26,6 @@ namespace Punto2
         private string especie;
         private int profundidadOptima;
         private int nivelSalinidad;
-        public CriaturaMarina()
-        {
-            Console.WriteLine("Poner la especie del animal: ");
-            especie = Console.ReadLine();
-            string linea;
-            Console.WriteLine("Poner la Profundidad Optima de la especie (en metros): ");
-            do 
-            {
-                linea = Console.ReadLine();
-                if (int.Parse(linea)>0)
-                {
-                    profundidadOptima = int.Parse(linea);
-                    break;
-                }
-                else
-                {
-                    Console.WriteLine("Poner una Profundidad que sea Mayor a 0");
-                }
-            }while (true);
-            Console.WriteLine("Poner el nivel de salinidad que necesita la especie para sobrevivir: ");
-            linea = Console.ReadLine();
-            if (int.Parse(linea)>=1 && int.Parse(linea) <=100)
-            {
-                nivelSalinidad = int.Parse(linea);
-            }
-            else
-            {
-                nivelSalinidad= 35;
-            }
-        }
         public string Especie
         {
             set
@@ -87,6 +57,36 @@ namespace Punto2
             get
             {
                 return nivelSalinidad;
+            }
+        }
+        public CriaturaMarina()
+        {
+            Console.WriteLine("Poner la especie del animal: ");
+            especie = Console.ReadLine();
+            string linea;
+            Console.WriteLine("Poner la Profundidad Optima de la especie (en metros): ");
+            do 
+            {
+                linea = Console.ReadLine();
+                if (int.Parse(linea)>0)
+                {
+                    profundidadOptima = int.Parse(linea);
+                    break;
+                }
+                else
+                {
+                    Console.WriteLine("Poner una Profundidad que sea Mayor a 0");
+                }
+            }while (true);
+            Console.WriteLine("Poner el nivel de salinidad que necesita la especie para sobrevivir: ");
+            linea = Console.ReadLine();
+            if (int.Parse(linea)>=1 && int.Parse(linea) <=100)
+            {
+                nivelSalinidad = int.Parse(linea);
+            }
+            else
+            {
+                nivelSalinidad= 35;
             }
         }
     }
