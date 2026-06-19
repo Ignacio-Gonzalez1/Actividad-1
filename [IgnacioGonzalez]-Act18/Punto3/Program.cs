@@ -24,12 +24,6 @@ namespace Punto3
         */
         protected string modelo;
         protected int autonomiaMinutos;
-
-        public SondaExploradora(string m, int aM)
-        {
-            modelo = m;
-            autonomiaMinutos = aM;
-        }
         public string Modelo
         {
             set 
@@ -52,15 +46,16 @@ namespace Punto3
                 return autonomiaMinutos;
             }
         }
+        public SondaExploradora(string m, int aM)
+        {
+            modelo = m;
+            autonomiaMinutos = aM;
+        }
+        
     }
     class SondaSubmarina : SondaExploradora
     {
         protected int presionMaximaAtm;
-
-        public SondaSubmarina(string m, int aM, int pMA) : base(m, aM)
-        {
-            presionMaximaAtm = pMA;
-        }
         public int PresionMaximaAtm
         {
             set
@@ -72,14 +67,15 @@ namespace Punto3
                 return presionMaximaAtm;
             }
         }
+
+        public SondaSubmarina(string m, int aM, int pMA) : base(m, aM)
+        {
+            presionMaximaAtm = pMA;
+        }
     }
     class RoverTerrestre : SondaExploradora
     {
         protected int cantidadRuedas;
-        public RoverTerrestre(string m, int aM,int cR) : base (m, aM)
-        {
-            cantidadRuedas = cR;
-        }
         public int CantidadRuedas
         {
             set
@@ -90,6 +86,10 @@ namespace Punto3
             {
                 return cantidadRuedas;
             }
+        }
+        public RoverTerrestre(string m, int aM,int cR) : base (m, aM)
+        {
+            cantidadRuedas = cR;
         }
     }
     class Prueba
