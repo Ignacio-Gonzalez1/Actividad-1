@@ -46,6 +46,17 @@ namespace Punto3
     {
         public int cantidadPuertas;
         public Vehículo base1;
+        public int CantidadPuertas
+        {
+            set
+            {
+                cantidadPuertas = value;
+            }
+            get
+            {
+                return cantidadPuertas;
+            }
+        }
         public Auto()
         {
             base1 = new Vehículo();
@@ -59,23 +70,23 @@ namespace Punto3
             linea = Console.ReadLine();
             cantidadPuertas = int.Parse(linea);
         }
-        public int CantidadPuertas
-        {
-            set
-            {
-                cantidadPuertas = value;
-            }
-            get
-            {
-                return cantidadPuertas;
-            }
-        }
+        
     }
     class Moto : Vehículo
     {
         public int cilindrada;
         public Vehículo base2;
-
+        public int Cilindrada
+        {
+            set
+            {
+                cilindrada = value;
+            }
+            get
+            {
+                return cilindrada;
+            }
+        }
         public Moto()
         {
             base2= new Vehículo();
@@ -89,17 +100,7 @@ namespace Punto3
             linea = Console.ReadLine();
             cilindrada = int.Parse(linea);
         }
-        public int Cilindrada
-        {
-            set
-            {
-                cilindrada = value;
-            }
-            get
-            {
-                return cilindrada;
-            }
-        }
+       
     }
 }
     
