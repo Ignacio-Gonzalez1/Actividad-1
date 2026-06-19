@@ -26,23 +26,6 @@ namespace Punto1
         protected string codigoIdentificador;
         protected double generacionKwh;
 
-        
-        public DispositivoEnergia()
-        {
-            Console.WriteLine("Poner EL Codigo Identificador: ");
-            codigoIdentificador = Console.ReadLine();
-                Console.WriteLine("Poner la Generacion de Kilowatts-hora generados: ");
-                string linea;
-                linea = Console.ReadLine();
-            if (double.Parse(linea) >= 0)
-            {
-                generacionKwh = double.Parse(linea);
-            }
-            else
-            {
-                generacionKwh = 0;
-            }
-        }
         public string CodigoIdentificador
         {
             set
@@ -65,6 +48,22 @@ namespace Punto1
                 return generacionKwh;
             }
         }
+        public DispositivoEnergia()
+        {
+            Console.WriteLine("Poner EL Codigo Identificador: ");
+            codigoIdentificador = Console.ReadLine();
+                Console.WriteLine("Poner la Generacion de Kilowatts-hora generados: ");
+                string linea;
+                linea = Console.ReadLine();
+            if (double.Parse(linea) >= 0)
+            {
+                generacionKwh = double.Parse(linea);
+            }
+            else
+            {
+                generacionKwh = 0;
+            }
+        }
         public void ImprimirDeDispositivoEnergia()
         {
             Console.WriteLine("El Id del DispositivoEnergia es: "+ CodigoIdentificador + " su generacion kWh es: " + GeneracionKwh + "kWh");
@@ -73,6 +72,17 @@ namespace Punto1
     class PanelSolar : DispositivoEnergia
     {
         protected double areaMetros;
+         public double AreaMetros
+        {
+            set
+            {
+                areaMetros= value;
+            }
+            get
+            {
+                return areaMetros;
+            }
+        }
         public PanelSolar()
         {
             do
@@ -89,18 +99,6 @@ namespace Punto1
                     Console.WriteLine("Poner un area de metros cuardrados que sea mayor a 0");
                 }
             } while (true);
-        }
-
-        public double AreaMetros
-        {
-            set
-            {
-                areaMetros= value;
-            }
-            get
-            {
-                return areaMetros;
-            }
         }
         public void Imprimirtodo()
         {
