@@ -26,38 +26,6 @@ namespace Punto2
         private string titulo;
         private int duracionMinutos;
         private int calificacion;
-        public Pelicula()
-        {
-            Console.WriteLine("Poner el Titulo de la pelicula: ");
-            titulo = Console.ReadLine();
-            string linea;
-            do
-            {
-
-                Console.WriteLine("Poner el duracion (en Minutos) de la pelicula: ");
-                linea = Console.ReadLine();
-                if (int.Parse(linea)>0)
-                {
-                    duracionMinutos = int.Parse(linea);
-                    break;
-                }
-                else
-                {
-                    Console.WriteLine("La duracion debe ser mayor a 0");
-                }
-
-            }while (true);
-            Console.WriteLine("Poner la Calificacion de la pelicula: ");
-            linea= Console.ReadLine();
-            if (int.Parse(linea) > 5)
-            {
-                calificacion = 1;
-            }
-            else
-            {
-                calificacion= int.Parse(linea);
-            }
-        }
         public string Titulo
         {
             set 
@@ -93,6 +61,39 @@ namespace Punto2
                 return calificacion;
             }
         }
+        public Pelicula()
+        {
+            Console.WriteLine("Poner el Titulo de la pelicula: ");
+            titulo = Console.ReadLine();
+            string linea;
+            do
+            {
+
+                Console.WriteLine("Poner el duracion (en Minutos) de la pelicula: ");
+                linea = Console.ReadLine();
+                if (int.Parse(linea)>0)
+                {
+                    duracionMinutos = int.Parse(linea);
+                    break;
+                }
+                else
+                {
+                    Console.WriteLine("La duracion debe ser mayor a 0");
+                }
+
+            }while (true);
+            Console.WriteLine("Poner la Calificacion de la pelicula: ");
+            linea= Console.ReadLine();
+            if (int.Parse(linea) > 5)
+            {
+                calificacion = 1;
+            }
+            else
+            {
+                calificacion= int.Parse(linea);
+            }
+        }
+        
 
 
     }
