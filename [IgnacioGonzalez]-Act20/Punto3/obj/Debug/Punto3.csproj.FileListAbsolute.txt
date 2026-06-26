@@ -1,0 +1,8 @@
+C:\Users\Alumno\source\repos\[IgnacioGonzalez]-Act20\Punto3\bin\Debug\Punto3.exe.config
+C:\Users\Alumno\source\repos\[IgnacioGonzalez]-Act20\Punto3\bin\Debug\Punto3.exe
+C:\Users\Alumno\source\repos\[IgnacioGonzalez]-Act20\Punto3\bin\Debug\Punto3.pdb
+C:\Users\Alumno\source\repos\[IgnacioGonzalez]-Act20\Punto3\obj\Debug\Punto3.csproj.AssemblyReference.cache
+C:\Users\Alumno\source\repos\[IgnacioGonzalez]-Act20\Punto3\obj\Debug\Punto3.csproj.CoreCompileInputs.cache
+C:\Users\Alumno\source\repos\[IgnacioGonzalez]-Act20\Punto3\obj\Debug\Punto3.exe
+C:\Users\Alumno\source\repos\[IgnacioGonzalez]-Act20\Punto3\obj\Debug\Punto3.pdb
+C:\Users\Alumno\source\repos\[IgnacioGonzalez]-Act20\Punto3\obj\Debug\Punto3.exe.config

@@ -1,0 +1,15 @@
+C:\Users\Alumno\Desktop\nueva\Actividad-1\[IgnacioGonzalez]-Act20\Punto1\bin\Debug\Punto1.exe.config
+C:\Users\Alumno\Desktop\nueva\Actividad-1\[IgnacioGonzalez]-Act20\Punto1\bin\Debug\Punto1.exe
+C:\Users\Alumno\Desktop\nueva\Actividad-1\[IgnacioGonzalez]-Act20\Punto1\bin\Debug\Punto1.pdb
+C:\Users\Alumno\Desktop\nueva\Actividad-1\[IgnacioGonzalez]-Act20\Punto1\obj\Debug\Punto1.csproj.AssemblyReference.cache
+C:\Users\Alumno\Desktop\nueva\Actividad-1\[IgnacioGonzalez]-Act20\Punto1\obj\Debug\Punto1.csproj.CoreCompileInputs.cache
+C:\Users\Alumno\Desktop\nueva\Actividad-1\[IgnacioGonzalez]-Act20\Punto1\obj\Debug\Punto1.exe
+C:\Users\Alumno\Desktop\nueva\Actividad-1\[IgnacioGonzalez]-Act20\Punto1\obj\Debug\Punto1.pdb
+C:\Users\Alumno\source\repos\[IgnacioGonzalez]-Act20\Punto1\bin\Debug\Punto1.exe.config
+C:\Users\Alumno\source\repos\[IgnacioGonzalez]-Act20\Punto1\bin\Debug\Punto1.exe
+C:\Users\Alumno\source\repos\[IgnacioGonzalez]-Act20\Punto1\bin\Debug\Punto1.pdb
+C:\Users\Alumno\source\repos\[IgnacioGonzalez]-Act20\Punto1\obj\Debug\Punto1.csproj.AssemblyReference.cache
+C:\Users\Alumno\source\repos\[IgnacioGonzalez]-Act20\Punto1\obj\Debug\Punto1.exe.config
+C:\Users\Alumno\source\repos\[IgnacioGonzalez]-Act20\Punto1\obj\Debug\Punto1.csproj.CoreCompileInputs.cache
+C:\Users\Alumno\source\repos\[IgnacioGonzalez]-Act20\Punto1\obj\Debug\Punto1.exe
+C:\Users\Alumno\source\repos\[IgnacioGonzalez]-Act20\Punto1\obj\Debug\Punto1.pdb
