@@ -47,25 +47,25 @@ namespace Punto2
             posY = int.Parse(linea);
         }
     }
-        class Program 
+    class Program
     {
         private ElementoPantalla[] ElementoPantallaTotal;
         public Program()
         {
             ElementoPantallaTotal = new ElementoPantalla[4];
-            for (int i = 0; i< ElementoPantallaTotal.Length; i++)
+            for (int i = 0; i < ElementoPantallaTotal.Length; i++)
             {
-                ElementoPantallaTotal[i]= new ElementoPantalla();
+                ElementoPantallaTotal[i] = new ElementoPantalla();
             }
         }
         public void Metodo()
         {
             Console.Clear();
-            for (int i = 0;i<ElementoPantallaTotal.Length; i++)
+            for (int i = 0; i < ElementoPantallaTotal.Length; i++)
             {
                 Console.SetCursorPosition(ElementoPantallaTotal[i].PosX, ElementoPantallaTotal[i].PosY);
-            Console.CursorVisible = false;
-            Console.WriteLine(ElementoPantallaTotal[i].Nombre);
+                Console.CursorVisible = false;
+                Console.WriteLine(ElementoPantallaTotal[i].Nombre);
 
             }
         }

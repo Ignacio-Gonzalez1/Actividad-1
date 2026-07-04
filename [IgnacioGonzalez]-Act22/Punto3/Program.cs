@@ -21,7 +21,7 @@ namespace Punto3
     class Entrenamiento
     {
         private string deportista;
-        private int hora,minutos;
+        private int hora, minutos;
         public int Hora
         {
             set { hora = value; }
@@ -37,7 +37,7 @@ namespace Punto3
             set { deportista = value; }
             get { return deportista; }
         }
-        public Entrenamiento(string d,int h, int m)
+        public Entrenamiento(string d, int h, int m)
         {
             deportista = d;
             hora = h;
@@ -48,7 +48,7 @@ namespace Punto3
         {
             hora = h1;
             minutos = m1;
-            double duracion = minutos+hora*60;
+            double duracion = minutos + hora * 60;
             return duracion;
         }
         public double RegistrarDuracion(int m1)
@@ -66,15 +66,15 @@ namespace Punto3
             for (int i = 0; i < 5; i++)
             {
                 Console.WriteLine("Ingrese el nombre de deportista: ");
-                string d= Console.ReadLine();
+                string d = Console.ReadLine();
                 string linea;
                 Console.WriteLine("Poner la hora: ");
                 linea = Console.ReadLine();
-                int h= int.Parse(linea);
+                int h = int.Parse(linea);
                 Console.WriteLine("Poner los minutos: ");
                 linea = Console.ReadLine();
                 int m = int.Parse(linea);
-                Entrenamiento nuevaEntrenamiento = new Entrenamiento(d,h,m);
+                Entrenamiento nuevaEntrenamiento = new Entrenamiento(d, h, m);
                 ListaDEentrenamientos.Add(nuevaEntrenamiento);
             }
         }
@@ -82,28 +82,29 @@ namespace Punto3
         public void entrenamientoMaslargo()
         {
             duraciones = new double[5];
-            for (int i = 0;i < 5; i++)
+            for (int i = 0; i < 5; i++)
             {
-                if (ListaDEentrenamientos[i].Hora<=0)
+                if (ListaDEentrenamientos[i].Hora <= 0)
                 {
                     duraciones[i] = ListaDEentrenamientos[i].RegistrarDuracion(ListaDEentrenamientos[i].Minutos);
-                }else
-                    if (ListaDEentrenamientos[i].Hora > 0)
-                {
-                    duraciones[i] = ListaDEentrenamientos[i].RegistrarDuracion(ListaDEentrenamientos[i].Hora, ListaDEentrenamientos[i].Minutos);
                 }
+                else
+                    if (ListaDEentrenamientos[i].Hora > 0)
+                    {
+                        duraciones[i] = ListaDEentrenamientos[i].RegistrarDuracion(ListaDEentrenamientos[i].Hora, ListaDEentrenamientos[i].Minutos);
+                    }
             }
-            double elMayor=duraciones[0];
+            double elMayor = duraciones[0];
             int ñ = 0;
-            for (int i = 1;i < duraciones.Length;i++)
+            for (int i = 1; i < duraciones.Length; i++)
             {
-                if (elMayor<duraciones[i])
+                if (elMayor < duraciones[i])
                 {
                     elMayor = duraciones[i];
                     ñ = i;
                 }
             }
-            Console.WriteLine("El entrenamiento mas largo es: " + ListaDEentrenamientos[ñ].Deportista + " con una duracion de: "+ elMayor+" minutos");
+            Console.WriteLine("El entrenamiento mas largo es: " + ListaDEentrenamientos[ñ].Deportista + " con una duracion de: " + elMayor + " minutos");
         }
         public void entrenamientoMasCorto()
         {
@@ -116,9 +117,9 @@ namespace Punto3
                 }
                 else
                     if (ListaDEentrenamientos[i].Hora > 0)
-                {
-                    duraciones[i] = ListaDEentrenamientos[i].RegistrarDuracion(ListaDEentrenamientos[i].Hora, ListaDEentrenamientos[i].Minutos);
-                }
+                    {
+                        duraciones[i] = ListaDEentrenamientos[i].RegistrarDuracion(ListaDEentrenamientos[i].Hora, ListaDEentrenamientos[i].Minutos);
+                    }
             }
             double Elmenor = duraciones[0];
             int ñ = 0;
