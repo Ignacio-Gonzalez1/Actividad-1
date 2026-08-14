@@ -35,12 +35,10 @@ namespace Punto6
         private int anioPublicacion;
         public string Titulo
         {
-            set { titulo = value; }
             get { return titulo; }
         }
         public int AnioPublicacion
         {
-            set {  anioPublicacion = value; }
             get { return anioPublicacion; }
         }
         public Libro(string tit, int anio)
