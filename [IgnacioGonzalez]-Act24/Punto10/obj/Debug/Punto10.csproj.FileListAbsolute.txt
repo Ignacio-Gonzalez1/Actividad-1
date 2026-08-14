@@ -1,0 +1,8 @@
+C:\Users\Alumno\source\repos\[IgnacioGonzalez]-Act24\Punto10\bin\Debug\Punto10.exe.config
+C:\Users\Alumno\source\repos\[IgnacioGonzalez]-Act24\Punto10\bin\Debug\Punto10.exe
+C:\Users\Alumno\source\repos\[IgnacioGonzalez]-Act24\Punto10\bin\Debug\Punto10.pdb
+C:\Users\Alumno\source\repos\[IgnacioGonzalez]-Act24\Punto10\obj\Debug\Punto10.csproj.AssemblyReference.cache
+C:\Users\Alumno\source\repos\[IgnacioGonzalez]-Act24\Punto10\obj\Debug\Punto10.csproj.CoreCompileInputs.cache
+C:\Users\Alumno\source\repos\[IgnacioGonzalez]-Act24\Punto10\obj\Debug\Punto10.exe
+C:\Users\Alumno\source\repos\[IgnacioGonzalez]-Act24\Punto10\obj\Debug\Punto10.pdb
+C:\Users\Alumno\source\repos\[IgnacioGonzalez]-Act24\Punto10\obj\Debug\Punto10.exe.config

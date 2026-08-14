@@ -1,0 +1,8 @@
+C:\Users\Alumno\source\repos\[IgnacioGonzalez]-Act24\Punto8\bin\Debug\Punto8.exe.config
+C:\Users\Alumno\source\repos\[IgnacioGonzalez]-Act24\Punto8\bin\Debug\Punto8.exe
+C:\Users\Alumno\source\repos\[IgnacioGonzalez]-Act24\Punto8\bin\Debug\Punto8.pdb
+C:\Users\Alumno\source\repos\[IgnacioGonzalez]-Act24\Punto8\obj\Debug\Punto8.csproj.AssemblyReference.cache
+C:\Users\Alumno\source\repos\[IgnacioGonzalez]-Act24\Punto8\obj\Debug\Punto8.csproj.CoreCompileInputs.cache
+C:\Users\Alumno\source\repos\[IgnacioGonzalez]-Act24\Punto8\obj\Debug\Punto8.exe
+C:\Users\Alumno\source\repos\[IgnacioGonzalez]-Act24\Punto8\obj\Debug\Punto8.pdb
+C:\Users\Alumno\source\repos\[IgnacioGonzalez]-Act24\Punto8\obj\Debug\Punto8.exe.config
